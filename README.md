@@ -34,7 +34,7 @@ public class Calculadora {
         System.out.println("División: " + (a / b));
     }
 }
-´´´
+```
  
 
 
@@ -67,6 +67,7 @@ Por ejemplo, ambos modifican el mensaje inicial:
  
 ```
 System.out.println("=== Calculadora Básica ===");
+```
  
 * En una rama se cambia a === Calculadora Avanzada ===
 * En otra rama se cambia a === Super Calculadora ===
@@ -74,7 +75,6 @@ System.out.println("=== Calculadora Básica ===");
 2. El primero que haga el merge a main no tendrá problema.
 3. El segundo, al intentar hacer el merge, verá que Git detecta un conflicto en ese archivo.
 4. Decidid que opción vais a usar para resolver el conflicto.
-´´´
 
 
 ## Entrega
