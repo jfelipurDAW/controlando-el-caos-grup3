@@ -33,7 +33,8 @@ public class Calculadora {
         System.out.println("Multiplicación: " + (a * b));
         System.out.println("División: " + (a / b));
     }
-}´´´
+}
+´´´
  
 
 
@@ -64,14 +65,16 @@ Debéis provocar intencionadamente un conflicto y resolverlo.
 Dos miembros del grupo deben editar la misma línea o bloque de código en ramas diferentes y resolverlo.
 Por ejemplo, ambos modifican el mensaje inicial:
  
-```System.out.println("=== Calculadora Básica ===");
+```
+System.out.println("=== Calculadora Básica ===");
  
 * En una rama se cambia a === Calculadora Avanzada ===
 * En otra rama se cambia a === Super Calculadora ===
 1. Cada uno hace commit y push de su rama.
 2. El primero que haga el merge a main no tendrá problema.
 3. El segundo, al intentar hacer el merge, verá que Git detecta un conflicto en ese archivo.
-4. Decidid que opción vais a usar para resolver el conflicto.´´´
+4. Decidid que opción vais a usar para resolver el conflicto.
+´´´
 
 
 ## Entrega
