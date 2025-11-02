@@ -2,7 +2,8 @@ package Calculadora;
 
 import java.util.Scanner;
 
-	public class Calculadora {
+
+	public class calculadora {
 	    public static void main(String[] args) {
 	    	Scanner sc = new Scanner(System.in);
 	        System.out.println("=== Calculadora Básica ===");
@@ -23,3 +24,6 @@ import java.util.Scanner;
 	    }
 	}
 
+	        System.out.println("Percentatge: " + ((a / b) * 100) + "%");
+	    }
+	}
