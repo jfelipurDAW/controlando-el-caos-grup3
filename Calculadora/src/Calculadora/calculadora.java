@@ -1,17 +1,25 @@
 package Calculadora;
 
-public class calculadora {
+import java.util.Scanner;
 
 	public class Calculadora {
 	    public static void main(String[] args) {
+	    	Scanner sc = new Scanner(System.in);
 	        System.out.println("=== Calculadora Básica ===");
-	        int a = 10;
-	        int b = 5;
-	 
+	        double a = 0;
+	        double b = 0;
+	        double volumen = 0;
+	        System.out.println("Introcuce el número que quieres elevar:");
+	        a = sc.nextDouble();
+	        System.out.println("Introcuce el número que quieres elevar:");
+	        b = sc.nextDouble();
+	        volumen = Math.pow(a, b);
+	    
 	        System.out.println("Suma: " + (a + b));
 	        System.out.println("Resta: " + (a - b));
 	        System.out.println("Multiplicación: " + (a * b));
 	        System.out.println("División: " + (a / b));
+	        System.out.println("Potencia a^b:" + volumen);
 	    }
 	}
-}
+
